@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Portfolio</title>
+  <link href="Assets/CSS/header.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="site.css" type="text/css">
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a id="one" href=""><img src=""></a>
+      <a id="two" href="#Accueil">Accueil</a>
+      <a id="three" href="#Accueil">Présentation</a>
+      <a id="four" href="#CV">CV</a>
+      <a id="five" href="#Lettre de motivation">Lettre de motivation</a>
+      <a id="six" href="#Projets">Projets</a>
+    </nav>
+  </header>
+  <section id="Accueil">
+    <div id="Qui">
+        <h1>Qui suis-je ?</h1>
+    </div>
+    <div id="Présentation">
+      <textfield>Je m'appelle Gabriel Algudo, étudiant à l'IUT de Nantes. J'ai 19 ans, mon objectif étant d'obtenir plus tard un master en informatique ainsi que  d'autres diplômes si opportunité. Côté professionnel, je me projette au travers d'une carrière de développeur d'application ou en tant qu'ingénieur informatique. Je suis passionné par les jeux vidéos mais plus généralement par tous ce qui a trait à la réflexion.</textfield>
+    </div>
+    <!--<div id="img_proj" class="image"><img src="Assets/Images/quadtree.png"></div>-->
+  </section>
+  <section id="CV">
+    <h1>Mon CV</h1>
+    <div id="conteneur_cv">
+      <div id="img_CV">
+        <img src="Assets/Images/CV.png">
+        <div id="bouton_télécharger"><a href="Assets/Documents/CV.pdf" download="CV.pdf">Télécharger mon CV</a></div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="Lettre de motivation">
+    <h1>Ma lettre de motivation</h1>
+    <div class="pdf-container">
+      <embed src="Assets/Documents/Lettre de motivation.pdf" type="application/pdf">
+    </div>
+  </section>
+  <section id="Projets"> <!--Idée d'une console interactive-->
+    <h1>Mes projets</h1>
+    <div id="Vidéos">
+      <h4>Projet "Quadtree"</h4>
+      <li>L'objectif était de nous faire découvrir les quadtree au travers d'un travail en binôme. Nous avons donc dû développer, en partant d'une base, une sorte de jeux vidéo miniature.</li>
+      <div class="video-container">
+        <video controls>
+          <source src="Assets/Videos/présentation de base.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="video-container">
+        <video controls>
+          <source src="Assets/Videos/presentation-extensions.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+    <div id="Sell.e-malls">
+      <h4>Sell.e-malls</h4>
+      <li>Projet collaboratif nous ayant ouvert l'esprit sur l'affordance, les règles a respecter pour faire un site web percutant et efficace.</li>
+      <a><img id="img_projet2" src="Assets/Images/Sell.e-malls.png"></a>
+    </div>
+  </section>
+</body>

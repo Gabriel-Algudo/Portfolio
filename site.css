@@ -21,7 +21,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Assombrissement plus fort */
+    background-color: rgba(0, 0, 0, 0.9); /* Assombrissement plus fort */
     z-index: -1;
 }
 
@@ -40,6 +40,10 @@ header nav a {
     color: #fff;
     text-decoration: none;
     margin-right: 20px;
+}
+
+header nav a:hover {
+    color: #999; /* Couleur plus sombre au survol */
 }
 
 /* Sections */
@@ -86,9 +90,11 @@ section {
 }
 
 #img_CV {
+    margin-left: 25%;
     text-align: center;
     position: relative;
     margin-bottom: 20px;
+    width : 50%;
 }
 
 #bouton_télécharger {
@@ -109,7 +115,7 @@ section {
 }
 
 #bouton_télécharger a:hover {
-    background-color: #45a049;
+    background-color: #39853d;
 }
 
 /* Lettre de motivation */
@@ -180,8 +186,8 @@ section {
 }
 
 .pdf-container embed {
-    width: 80%;
-    height: 750px;
+    width: 50%;
+    height: 1000px;
 }
 
 /* Ajustement pour les vidéos sur les écrans d'ordinateur */
